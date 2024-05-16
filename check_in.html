@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Check_In_La_Fetta </title>
+        <link rel="stylesheet" href="Styles/styles_check_in.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <div class="container" id="container">
+                <div class="form-container sign-up">
+                    <form action="#">
+                        <h1 class="title">Crear Cuenta</h1>
+                        <samp>O utilice su correo para registrarse</samp>
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <button id="btnRegister">Registrarse</button>
+                    </form>
+                </div>
+                <div class="form-container sign-in">
+                    <form action="#">
+                        <h1 class="title">Iniciar Sesion</h1>
+                        <samp>O utilice su contraseña del correo</samp>
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <a href="#" class="fp">¿Olvidaste la contraseña?</a>
+                        <button id="btnLogin">Iniciar sesion</button>
+                    </form>
+                </div>
+                <div class="change-container">
+                    <div class="change">
+                        <div class="change-panel change-left">
+                            <h1 class="title">Bienvenido de vuelta</h1>
+                            <p>Introduzca sus datos personales para continuar <br> 
+                            ¿Ya tienes cuenta?</p>
+                            <button class="hidden" id="login">Ir a Iniciar Sesion</button>
+                        </div>
+                        <div class="change-panel change-right">
+                            <h1 class="title">Bienvenido</h1>
+                            <p>Introduzca sus datos personales para continuar <br> 
+                            ¿No tienes cuenta?</p>
+                            <button class="hidden" id="register">Ir a registrarse</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="Scripts/script_check_in.js"></script>
+    </body>
+</html>
