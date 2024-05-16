@@ -1,6 +1,9 @@
 *{
     font-family: 'Spectral', serif;
 }
+body{
+    background-color: #F6F578;
+}
 img{
     height: 150px;
     width: 150px;
