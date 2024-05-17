@@ -1,0 +1,33 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-section h1,
+.footer-section h2 {
+    color: #FFCA03;
+}
+
+.social-links a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.social-links a:hover {
+    color: #FFCA03;
+}
