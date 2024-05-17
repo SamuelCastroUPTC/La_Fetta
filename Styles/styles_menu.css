@@ -106,9 +106,8 @@ button.hidden{
 }
 button:hover{
     background-color: #F90716;
-    box-shadow: 0px 15px 20px #F90716;
     color: #FFCA03;
-    transform: translateY(-7px);
+    transform: scale(1.1);
 }
 
 
