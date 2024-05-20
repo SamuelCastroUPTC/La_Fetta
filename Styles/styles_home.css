@@ -15,7 +15,7 @@ h2{
 }
 #slider{
     position: relative;
-    width: 55%;
+    width: 50%;
     height: 30vw;
     margin: 80px auto;
     transform-style: preserve-3d;

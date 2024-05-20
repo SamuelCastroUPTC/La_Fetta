@@ -2,8 +2,15 @@
     font-family: 'Spectral', serif;
 }
 #logo{
-    width: 220px;
-    height: 220px;
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+}
+#usuario,
+#carro{
+    width: 100px;
+    height: 100px;
 }
 .headermenu{
     font-size: 25px;

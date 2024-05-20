@@ -1,5 +1,5 @@
 body{
-    background-color: #FFC100;
+  background-color: #F6F578;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -13,17 +13,21 @@ html{
 }
 
 .reviews{
+  font-size: 20px;
     width: 80%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: #FFCA03;
     border-radius: 15px;
 }
+.reviews h1{
+  color: #C40C0C;
+}
 hr{
-    border: solid 1px gray;
+    border: solid 1px #C40C0C;
     width: 80%;
 }
 .form{
@@ -73,7 +77,29 @@ hr{
   .rating input:checked ~ label,
   .rating label:hover,
   .rating label:hover ~ label {
-    color: #6f00ff;
+    color: #C40C0C;
     transition: color 0.3s;
   }
+  button{
+    background-color: #FFCA03;
+    color: #C40C0C;
+    font-size: 15px;
+    padding: 10px 45px;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+    border-color: #C40C0C;
+}
+button.hidden{
+    background-color: transparent;
+    border-color: #C40C0C;
+}
+button:hover{
+    background-color: #C40C0C;
+    color: #FFCA03;
+    transform: scale(1.1);
+}
   
