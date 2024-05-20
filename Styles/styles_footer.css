@@ -15,7 +15,14 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-
+.footer-section li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
 .footer-section {
     flex: 1;
     padding: 0 20px;

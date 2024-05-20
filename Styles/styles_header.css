@@ -4,16 +4,16 @@
 .headermenu{
     position: sticky;
     top: 0;
-    background-color: #FFCA03;
-    color: #F90716;
-    padding: 10px;
+    color: #C40C0C;
     z-index: 3;
-    overflow: auto;
+    display: flex;
+    background-color: #FF8A08;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-header{
-    background-color: #FFCA03;
-    display: flex;
-    justify-content: center;
+
+.headermenu img{
+    width: 100px;
+    height: 100px;
 }
