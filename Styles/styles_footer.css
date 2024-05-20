@@ -1,6 +1,9 @@
+*{
+    font-family: 'Spectral', serif;
+}
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #FFCA03;
+    color: black;
     padding: 20px 0;
     bottom: 0;
     width: 100%;
@@ -20,14 +23,14 @@ footer {
 
 .footer-section h1,
 .footer-section h2 {
-    color: #FFCA03;
+    color: #F90716;
 }
 
 .social-links a {
-    color: #fff;
+    color: #F90716;
     margin-right: 10px;
 }
 
 .social-links a:hover {
-    color: #FFCA03;
+    color: #F90716;
 }

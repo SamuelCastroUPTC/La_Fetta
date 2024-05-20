@@ -1,17 +1,23 @@
 *{
+    font-family: 'Spectral', serif;
+}
+main{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Spectral', serif;
-}
-body{
-    background-color: #F6F578;
     background: linear-gradient(to right #e2e2e2, #c9d6ff);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+}
+body{
+    background-color: #F6F578;
+}
+img{
+    height: 150px;
+    width: 150px;
 }
 .title{
     color: #F90716;
