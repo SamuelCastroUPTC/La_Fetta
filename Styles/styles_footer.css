@@ -3,8 +3,7 @@
 }
 footer {
     background-color: #FFCA03;
-    color: black;
-    padding: 20px 0;
+    position: relative;
     bottom: 0;
     width: 100%;
     text-align: center;
