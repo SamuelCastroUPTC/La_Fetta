@@ -4,9 +4,7 @@
 .headermenu{
     position: sticky;
     top: 0;
-    background-color: #FFCA03;
-    color: #F90716;
-    padding: 10px;
+    color: #C40C0C;
     z-index: 3;
     overflow: auto;
 }
