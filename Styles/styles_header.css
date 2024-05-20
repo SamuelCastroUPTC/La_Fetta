@@ -6,14 +6,35 @@
     top: 0;
     color: #C40C0C;
     z-index: 3;
-    display: flex;
-    background-color: #FF8A08;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    overflow: auto;
+    background-color: #FFCA03;
 }
-
-.headermenu img{
-    width: 100px;
-    height: 100px;
+header{
+    background-color: #FFCA03;
+    display: flex;
+    justify-content: center;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.menu ul li:last-child {
+    margin-right: 0;
+}
+.menu ul li a {
+    color: #F90716;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.menu ul li a:hover {
+    transform: translateY(3px); 
+    background-color: #FF8A08; 
 }
