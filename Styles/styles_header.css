@@ -1,7 +1,12 @@
 *{
     font-family: 'Spectral', serif;
 }
+#logo{
+    width: 220px;
+    height: 220px;
+}
 .headermenu{
+    font-size: 25px;
     position: sticky;
     top: 0;
     color: #C40C0C;
@@ -28,7 +33,7 @@ header{
     margin-right: 0;
 }
 .menu ul li a {
-    color: #F90716;
+    color: #C40C0C;
     text-decoration: none;
     padding: 10px 20px;
     display: block;
