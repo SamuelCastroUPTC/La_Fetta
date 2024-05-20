@@ -9,6 +9,10 @@
     overflow: auto;
     background-color: #FFCA03;
 }
+header img{
+    height: 150px;
+    width: 150px;
+}
 header{
     background-color: #FFCA03;
     display: flex;
