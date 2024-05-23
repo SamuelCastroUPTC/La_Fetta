@@ -8,11 +8,11 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-        <title>La Fetta-Pizza de Costillitas BBQ</title>
+        <title>La Fetta-Crea tu Pizza</title>
         <link rel="stylesheet" href="Styles/styles_header.css">
         <link rel="stylesheet" href="Styles/styles_footer.css">
         <script src="https://kit.fontawesome.com/44c4022be7.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="Styles/styles_pizza.css">
+        <link rel="stylesheet" href="Styles/styles_createpizza.css">
     </head>
     <body>
         <header>
@@ -35,41 +35,50 @@
             <div class="card-wrapper">
                 <div class="card">
                     <div class="product-imgs">
-                        <div class="img-display">
-                            <div class="img-showcase">
-                                <img src="images/PizzaCostillitas.png" alt="pizza-image">
-                            </div>
-                        </div>
+                        <img src="images/PizzaCarnes.png" alt="pizza-image" class="imagePizzaRight" id="imageR">
+                        <img src="images/PizzaCarnes.png" alt="pizza-image" class="imagePizzaLeft" id="imageL">
                     </div>
 
                     <div class="product-content">
-                        <h2 class="product-title">Pizza de Costillitas BBQ</h2>
+                        <h2 class="product-title">Tu Propia pizza</h2>
                         <a href="home.html" class="product-link">Visita la Tienda</a>
-                        <div class="product-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span>4.7(21)</span>
+                        <div >
+                            <select name="saborp1" id="selectSaborP1">
+                                <option value="queso" selected>Queso</option>
+                                <option value="carnes">Carnes</option>
+                                <option value="champiñones">Champiñones</option>
+                                <option value="costillitas">Costillitas</option>
+                                <option value="frutas">Frutas</option>
+                                <option value="hawaiana">Hawaiana</option>
+                                <option value="mexicana">Mexicana</option>
+                                <option value="peperoni">Peperoni</option>
+                                <option value="pollo">Pollo</option>
+                                <option value="vegetariana">Vegetariana</option>
+                                <option value="italiana">Italiana</option>
+                            </select>
+                            <select name="saborp2" id="selectSaborP2">
+                                <option value="queso" selected>Queso</option>
+                                <option value="carnes">Carnes</option>
+                                <option value="champiñones">Champiñones</option>
+                                <option value="costillitas">Costillitas</option>
+                                <option value="frutas">Frutas</option>
+                                <option value="hawaiana">Hawaiana</option>
+                                <option value="mexicana">Mexicana</option>
+                                <option value="peperoni">Peperoni</option>
+                                <option value="pollo">Pollo</option>
+                                <option value="vegetariana">Vegetariana</option>
+                                <option value="italiana">Italiana</option>
+                            </select>
                         </div>
-
-                        <div class="product-price">
-                            <p class="last-price">Antiguo Precio <span>66.000</span></p>
-                            <p class="new-price">Nuevo Precio <span>61.000</span></p>
-                        </div>
-
                         <div class="product-detail">
                             <h2>Acerca de la pizza:</h2>
-                            <p>La pizza de costillas BBQ es una delicia culinaria que combina la riqueza de las costillas de cerdo con el sabor ahumado de la salsa BBQ</p>
+                            <p>Crea increibles y alocadas pizzas con todos nuestros sabores disponibles</p>
                         </div>
-
                         <div class="purchase-info">
                             <input type="number" min="0" value="1">
                             <button type="button" class="btn">Añadir al carrito <i class="fas fa-shopping-cart"></i></button>
                             <button type="button" class="btn">Comprar</button>
                         </div>
-
                         <div class="social-links">
                             <p>Compartir en:</p>
                             <a href="#">
@@ -125,5 +134,6 @@
                 </div>
             </div>
         </footer>
+        <script src="Scripts/script_create_pizza.js"></script>
     </body>
 </html>
