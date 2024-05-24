@@ -3,6 +3,8 @@
 }
 body{
     background-color: #F6F578;
+    margin: 0;
+    padding: 0;
 }
 img{
     height: 150px;
