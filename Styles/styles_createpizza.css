@@ -65,7 +65,7 @@ body{
 }
 #selectSaborP1,
 #selectSaborP2{
-    background-color: #FFCA03;
+    background-color: #f1c003;
     color: #C40C0C;
     font-size: 15px;
     padding: 10px 45px;
@@ -73,15 +73,16 @@ body{
     font-weight: 600;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    margin-top: 10px;
+    margin: 10px 10px;
     cursor: pointer;
-    border-color: #C40C0C;
+    transition: .5s ease all;
+    border: none;
 }
 #selectSaborP1:hover,
 #selectSaborP2:hover{
     background-color: #C40C0C;
     color: #FFCA03;
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 .product-detail h2{
     text-transform: capitalize;
@@ -147,7 +148,7 @@ body{
     border-color: transparent;
 }
 button{
-    background-color: #FFCA03;
+    background-color: #f1c003;
     color: #C40C0C;
     font-size: 15px;
     padding: 10px 45px;
@@ -157,7 +158,8 @@ button{
     text-transform: uppercase;
     margin-top: 10px;
     cursor: pointer;
-    border-color: #C40C0C;
+    border: none;
+    transition: .5s ease all;
 }
 button.hidden{
     background-color: transparent;
@@ -166,7 +168,7 @@ button.hidden{
 button:hover{
     background-color: #C40C0C;
     color: #FFCA03;
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 @media screen and (min-width: 992px ) {
     .card{
@@ -183,4 +185,9 @@ button:hover{
     .product-content{
         padding-top: 0;
     }
+}
+
+.purchase-info > input{
+    border: none;
+    background-color: #f1c003;
 }
