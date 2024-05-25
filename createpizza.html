@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport"
@@ -16,9 +16,7 @@
     </head>
     <body>
         <header>
-            <img src="images/Logo.png" alt="" id="logo">
-            <a href="check_in.html"><img src="images/usuario.png" alt="" id="usuario"></a>
-            <img src="images/carrito-de-supermercado.png" alt="" id="carro">
+            <a href="home.html"><img src="images/Logo.png" alt="" id="logo"></a>
         </header>
         <div class="headermenu" id="header">
             <nav class="menu">
@@ -43,7 +41,7 @@
                         <h2 class="product-title">Tu Propia pizza</h2>
                         <a href="home.html" class="product-link">Visita la Tienda</a>
                         <div >
-                            <select name="saborp1" id="selectSaborP1">
+                            <label for="selectSaborP1"></label><select name="saborp1" id="selectSaborP1">
                                 <option value="queso" selected>Queso</option>
                                 <option value="carnes">Carnes</option>
                                 <option value="champiñones">Champiñones</option>
@@ -56,7 +54,7 @@
                                 <option value="vegetariana">Vegetariana</option>
                                 <option value="italiana">Italiana</option>
                             </select>
-                            <select name="saborp2" id="selectSaborP2">
+                            <label for="selectSaborP2"></label><select name="saborp2" id="selectSaborP2">
                                 <option value="queso" selected>Queso</option>
                                 <option value="carnes">Carnes</option>
                                 <option value="champiñones">Champiñones</option>
@@ -75,7 +73,9 @@
                             <p>Crea increibles y alocadas pizzas con todos nuestros sabores disponibles</p>
                         </div>
                         <div class="purchase-info">
-                            <input type="number" min="0" value="1">
+                            <label>
+                                <input type="number" min="0" value="1">
+                            </label>
                             <button type="button" class="btn">Añadir al carrito <i class="fas fa-shopping-cart"></i></button>
                             <button type="button" class="btn">Comprar</button>
                         </div>

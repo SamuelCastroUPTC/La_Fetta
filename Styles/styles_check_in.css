@@ -5,7 +5,6 @@ main{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(to right #e2e2e2, #c9d6ff);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,7 +51,7 @@ img{
     color: #C40C0C;
     font-size: 15px;
     padding: 10px 45px;
-    border: 1px solid transparent;
+    border: none;
     border-radius: 8px;
     font-weight: 600;
     letter-spacing: 0.5px;
