@@ -98,11 +98,15 @@ img{
 button{
     background-color: #FFCA03;
     color: #C40C0C;
-    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 10px 45px;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
     margin-top: 10px;
     cursor: pointer;
-    border: none;
+    border-color: #C40C0C;
 }
 button.hidden{
     background-color: transparent;

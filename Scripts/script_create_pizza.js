@@ -5,7 +5,7 @@ const selectPizza = document.getElementById('selectSaborP1');
             const image= document.getElementById('imageR');
             switch (opcionSeleccionada) {
                 case 'queso':
-                    image.src='images/PizzaCarnes.png';
+                    image.src='images/PizzaQueso.png';
                     break;
 
                 case 'carnes':
@@ -61,7 +61,7 @@ const selectPizza = document.getElementById('selectSaborP1');
             const image= document.getElementById('imageL');
             switch (opcionSeleccionada) {
                 case 'queso':
-                    image.src='images/PizzaCarnes.png';
+                    image.src='images/PizzaQueso.png';
                     break;
 
                 case 'carnes':
