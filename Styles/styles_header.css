@@ -4,13 +4,17 @@
 #logo{
     width: 180px;
     height: 180px;
-    display: block;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 #usuario,
 #carro{
     width: 100px;
     height: 100px;
+    float: right;
+}
+#right-align{
+    float: right;
 }
 .headermenu{
     font-size: 25px;
@@ -28,7 +32,8 @@ header img{
 header{
     background-color: #FFCA03;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 .menu ul {
     margin: 0;
@@ -54,3 +59,4 @@ header{
     transform: translateY(3px); 
     background-color: #FF8A08; 
 }
+

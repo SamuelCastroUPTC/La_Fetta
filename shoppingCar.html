@@ -11,8 +11,8 @@
         <title>Promociones La Fetta</title>
         <link rel="stylesheet" href="Styles/styles_header.css">
         <link rel="stylesheet" href="Styles/styles_footer.css">
+        <link rel="stylesheet" href="Styles/styles_shoppingcar.css">
         <script src="https://kit.fontawesome.com/44c4022be7.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="Styles/styles_promotions.css">
     </head>
     <body>
         <header>
@@ -32,30 +32,11 @@
             </nav>
         </div>
         <main>
+            <div id="divCar" class="divCar">
+                
+            </div>
             <section>
-                <h2>Increibles Promociones</h2>
-                <div id="slider">
-                    <input type="radio" name="slider" id="s1" checked>
-                    <input type="radio" name="slider" id="s2">
-                    <input type="radio" name="slider" id="s3">
-                    <input type="radio" name="slider" id="s4">
-                    <input type="radio" name="slider" id="s5">
-                    <label for="s1" id="slide1">
-                        <img src="images/PizzaChampiñones.png" alt="">
-                    </label>
-                    <label for="s2" id="slide2">
-                        <img src="images/PizzaHawaiana.png" alt="">
-                    </label>
-                    <label for="s3" id="slide3">
-                        <img src="images/PizzaMexicana.png" alt="">
-                    </label>
-                    <label for="s4" id="slide4">
-                        <img src="images/PizzaVegetariana.png" alt="">
-                    </label>
-                    <label for="s5" id="slide5">
-                        <img src="images/PizzaItaliana.png" alt="">
-                    </label>
-                </div>
+                <button onclick="pay()">Pagar</button>
             </section>
         </main>
         <footer>
@@ -91,5 +72,6 @@
                 </div>
             </div>
         </footer>
+        <script src="./Scripts/script_shoppingcar.js"></script>
     </body>
 </html>

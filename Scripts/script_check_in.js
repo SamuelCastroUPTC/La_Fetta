@@ -8,3 +8,14 @@ registerBtn.addEventListener('click', ()=>{
 loginBtn.addEventListener('click', ()=>{
     container.classList.remove("active");
 });
+
+function iniciarSesion() {
+    event.preventDefault();
+    window.location.href = 'home.html';
+    alert(document.getElementById('nameUsuario').value+ ', bienvenido de nuevo!');
+}
+function registrarse() {
+    event.preventDefault();
+    window.location.href = 'home.html';
+    alert(document.getElementById('nameUsuarioRegister').value+ ', bienvenido!');
+}

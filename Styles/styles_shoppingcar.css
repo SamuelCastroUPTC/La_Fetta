@@ -1,0 +1,65 @@
+*{
+    font-family: 'Spectral', serif;
+}
+main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+body{
+    background-color: #F6F578;
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+.divCar{
+    display: flex;
+    justify-content: space-between;
+}
+.pizzasCar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 150px;
+    padding: 30px 25px;
+    background-color: #FFCA03;
+    border-radius: 45px;
+    margin: 10px;
+    overflow: hidden;
+}
+.pizzasCar img {
+    height: 100px;
+    width: 100px;
+    float: right;
+}
+button{
+    background-color: #FFCA03;
+    color: #C40C0C;
+    font-size: 15px;
+    padding: 10px 45px;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+    border-color: #C40C0C;
+}
+button.hidden{
+    background-color: transparent;
+    border-color: #C40C0C;
+}
+button:hover{
+    background-color: #C40C0C;
+    color: #FFCA03;
+    transform: scale(1.1);
+}
